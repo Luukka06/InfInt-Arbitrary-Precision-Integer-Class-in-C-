@@ -1,8 +1,8 @@
 # InfInt-Arbitrary-Precision-Integer-Class-in-C-
 A simple big integer implementation in C#, built from scratch without relying on System.Numerics.BigInteger. Infint represents integers of arbitrary length as a list of decimal digits and supports comparison, addition, and subtraction — including correct handling of negative numbers.
 
-Features
-Arbitrary length: numbers are stored digit-by-digit, so size is limited only by available memory.
+# Features
+* Arbitrary length: numbers are stored digit-by-digit, so size is limited only by available memory.
 Sign support: correctly parses and operates on negative numbers.
 Core operations:
 CompareTo(Infint other) — compares two Infint values (-1, 0, 1)
