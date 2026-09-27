@@ -3,11 +3,11 @@ A simple big integer implementation in C#, built from scratch without relying on
 
 # Features
 * Arbitrary length: numbers are stored digit-by-digit, so size is limited only by available memory.
-Sign support: correctly parses and operates on negative numbers.
-Core operations:
-CompareTo(Infint other) — compares two Infint values (-1, 0, 1)
-Plus(Infint other) — addition
-Minus(Infint other) — subtraction
+* Sign support: correctly parses and operates on negative numbers.
+* Core operations:
+  -- CompareTo(Infint other) — compares two Infint values (-1, 0, 1)
+** Plus(Infint other) — addition
+** Minus(Infint other) — subtraction
 ToString() — converts back to a standard decimal string
 Automatic normalization: leading zeros are stripped and -0 is normalized to 0 via RemoveZeroes().
 How it works
